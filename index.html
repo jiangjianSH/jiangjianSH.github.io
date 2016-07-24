@@ -1,27 +1,76 @@
 <!DOCTYPE html>
-<html>
+
 <head>
-    <title>This is Frist Try</title>
+    <title>Keeping</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <meta name="author" content="Jiangjian">
+    <meta name="keywords" content="Html, Css, XML">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="scripts/jquery-2.1.1.js"></script>
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <script src="scripts/bootstrap.js"></script>
     <link rel="stylesheet" href="styles/style.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-    <h1>Mozilla is cool</h1>
-
-    <img src="images/mozilla-logo.png" alt="mozilla logo">
-
-    <p>At Mozilla, we're a global community of</p>
+<nav>
     <ul>
-        <li>technologists</li>
-        <li>thinkers</li>
-        <li>builders</li>
+
+        <div class="dropdown" style="display:inline">
+            <li class="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="true">Java</li>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li class="dropdown-header">可选专题</li>
+                <li><a href="#">Java Basic</a></li>
+                <li><a href="#">Java Advanced</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="disabled"><a href="#">Spring Framework(Not Available)</a></li>
+                <li><a href="#">Play Framework</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown" style="display:inline">
+            <li class="btn btn-default dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="true">Web</li>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><a href="tutorial/html/index.html">Html</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li class="disabled"><a href="#">Css</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown"  style="display:inline">
+            <li class="btn btn-default dropdown-toggle" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="true">Linux
+            </li>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                <li><a href="#">Shell</a></li>
+                <li><a href="#">LFS</a></li>
+                <li><a href="#">GNU</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown" style="display:inline">
+          <li class="btn btn-default dropdown-toggle" id="writeBlog" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="true">写博客
+          </li>
+        </div>
     </ul>
+</nav>
 
-    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and createors of the Web, We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.<p>
+<hr>
 
-    <p>Read the Mozilla Manifesto to learn even more about the values and principles that guide the pursuit of our mission.</p>
+<section>
+    <h1>写在前面...</h1>
+    <p>这个网站是个人的学习笔记，里面的内容都是根据自己的理解所写，如果你发现当中有纰漏，请联系我（jiangjian199204@gmail.com).</p>
+</section>
 
-    <button onclick="setUsername()">change me</button>
-    <script src="scripts/main.js"></script>
+
+<footer>
+ Copyright @ Jiangjian.com
+</footer>
+
 </body>
+
 </html>
