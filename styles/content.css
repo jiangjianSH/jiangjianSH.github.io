@@ -1,0 +1,9 @@
+html {
+  background-image: url("../images/content-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+
+body {
+  background-color:white;
+}
