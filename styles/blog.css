@@ -5,11 +5,12 @@ html {
 
 body {
 	border-radius: 10px;
-	background-color:white;
+	background-color:lightgray;
 }
 
 main {
 	width:800px;
+	color:black;
 }
 
 p {
