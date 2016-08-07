@@ -18,6 +18,11 @@ main {
 	display:inline;
 }
 
+h1 {
+	color: #a0844c;
+	font-size: 42px;
+}
+
 p {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-style: normal;
