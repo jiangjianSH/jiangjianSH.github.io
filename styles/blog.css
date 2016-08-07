@@ -1,16 +1,21 @@
-html {
+	html {
 	background-image: url("../images/article-background.jpg");
 	background-attachment:fixed;
 }
 
 body {
 	border-radius: 10px;
+	width:1200px;
 	background-color:#e7ecd4;
 }
 
 main {
-	width:800px;
+	width:900px;
 	color:black;
+	padding-right:5px;
+	border-right: 2px solid lightgray;
+	float:left;
+	display:inline;
 }
 
 p {
@@ -29,9 +34,21 @@ a:hover {color: black}/**表示当鼠标在链接上面划过时**/
 a:active {color: yellow}/**表示当链接被点击时**/
 
 aside {
-	float: right;
+	font-size:16px;
+	float: inherit;
+	display:inline;
+	margin-left:6px;
+	padding-left:2px;
+	border-left:4px solid green;
+	margin-top: 17px;
 }
 
 img {
 	border: 3px dashed red;
+}
+
+footer {
+	font-family:"Times New Roman", Times, serif;
+	font-size: 12px;;
+	text-align:right;
 }
