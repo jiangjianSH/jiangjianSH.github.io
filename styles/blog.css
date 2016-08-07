@@ -6,7 +6,7 @@
 body {
 	border-radius: 10px;
 	width:1200px;
-	background-color:#e7ecd4;
+	background-color:white;
 }
 
 main {
@@ -41,6 +41,11 @@ aside {
 	padding-left:2px;
 	border-left:4px solid green;
 	margin-top: 17px;
+}
+
+
+aside ul li {
+	display:inline
 }
 
 img {
