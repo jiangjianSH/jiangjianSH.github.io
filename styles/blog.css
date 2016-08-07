@@ -49,11 +49,20 @@ aside ul li {
 }
 
 img {
-	border: 3px dashed red;
+	float:right;
+	width:80px;
+	height: 40px;
 }
 
 footer {
 	font-family:"Times New Roman", Times, serif;
 	font-size: 12px;;
 	text-align:right;
+}
+
+.resources a {
+	color: #33AA88;
+	font-size: 16px;
+	margin-left:4px;
+	text-decoration: none;
 }
